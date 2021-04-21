@@ -1,0 +1,22 @@
+--- AnemoBOT ---
+
+Membutuhkan
+
+-Node.JS
+-GIT
+-FFMPEG
+
+
+FFMPEG UBUNTU
+>sudo apt install ffmpeg
+
+(test)
+>ffmpeg
+
+
+RUN
+
+>npm install
+>npm start
+
+(scan qr code)
