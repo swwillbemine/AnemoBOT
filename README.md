@@ -13,3 +13,5 @@
 > npm install
 > npm start
 ```
+# Tambahan
+- Script ino hasil recode
