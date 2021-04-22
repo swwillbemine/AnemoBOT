@@ -37,7 +37,7 @@ const processTime = (timestamp, now) => {
  */
 const options = (start) => {
     const options = {
-        sessionId: 'URBAE',
+        sessionId: 'Anemo',
         headless: true,
         qrTimeout: 0,
         authTimeout: 0,

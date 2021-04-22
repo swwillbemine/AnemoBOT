@@ -1188,7 +1188,7 @@ module.exports = HandleMsg = async (aruga, message) => {
                 await aruga.joinGroupViaLink(linkgrup)
                       .then(async () => {
                           await aruga.sendText(from, 'Berhasil join grup via link!')
-                          await aruga.sendText(chekgrup.id, `what up y'all , I'm Urbae Bot. To find out the commands on this Bot type ${prefix}menu`)
+                          await aruga.sendText(chekgrup.id, `what up y'all , I'm AnemoBOT. To find out the commands on this Bot type ${prefix}menu`)
                       })
             } else {
                 let cgrup = await aruga.getAllGroups()
@@ -4597,7 +4597,7 @@ _Desc di update oleh : @${chat.groupMetadata.descOwner.replace('@c.us','')} pada
             await aruga.reply(from, hih, id)
             break
         case prefix+'bc':
-            if (!isOwnerB) return aruga.reply(from, `Perintah ini hanya untuk Owner Urbae`, id)
+            if (!isOwnerB) return aruga.reply(from, `Perintah ini hanya untuk Owner AnemoBOT`, id)
                 bctxt = body.slice(4)
                 txtbc = `〘 *U R B A E  B O T* 〙\n\n${bctxt}`
                 const semuagrup = await aruga.getAllChatIds();
