@@ -1,4 +1,4 @@
-# AnemoBOT
+# AnemoBOT by AzzharAli
 
 # Install dulu
 - Node.js
@@ -13,5 +13,3 @@
 > npm install
 > npm start
 ```
-# Tambahan
-- Script hasil recode
