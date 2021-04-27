@@ -4246,9 +4246,9 @@ _Desc di update oleh : @${chat.groupMetadata.descOwner.replace('@c.us','')} pada
 
                     case prefix+'komplain':
                     if (!isGroupMsg) return aruga.reply(from, 'Perintah ini hanya bisa di gunakan dalam group!', id)
-                    if (args.length == 0) return aruga.reply(from, `Tidak ada nama!\nContoh : ${prefix}wangy Sayu`, id)
-                    const plngw = args.join(' ')
-                    await aruga.sendText(from, `Halo Kak ${plgnw},  kendala yang dialami Kami sarankan silakan restart modemnya selama 10 menit, jika masih berkendala silakan lakukan unplug/lepas-pasang kabel adaptor daya modem dan juga kabel lan pada modem. Jika masih berkendala silakan informasikan nomor pelanggan nya, atas nama pemilik dan nomor HP yang aktif via Inbox ya Kakak. Terima kasih`)
+                    if (args.length == 0) return aruga.reply(from, `Tidak ada nama!\nContoh : ${prefix}Komplain barbara`, id)
+                    const sgsgs = args.join(' ')
+                    await aruga.sendText(from, `Halo Kak ${sgsgs},  kendala yang dialami Kami sarankan silakan restart modemnya selama 10 menit, jika masih berkendala silakan lakukan unplug/lepas-pasang kabel adaptor daya modem dan juga kabel lan pada modem. Jika masih berkendala silakan informasikan nomor pelanggan nya, atas nama pemilik dan nomor HP yang aktif via Inbox ya Kakak. Terima kasih`)
                     break
 
                     case prefix+'anjing':
